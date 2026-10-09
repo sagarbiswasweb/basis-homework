@@ -1,0 +1,1 @@
+templating mastering and dynamically showing data from the model. data stored in array in the models

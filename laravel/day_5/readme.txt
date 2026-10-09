@@ -1,0 +1,1 @@
+getting data from database and showing them on haome page

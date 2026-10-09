@@ -1,0 +1,95 @@
+
+
+
+.my-pr-10{padding-right: 10px;}
+.my-pr-20{padding-right: 20px;}
+.my-pr-30{padding-right: 30px;}
+.my-pr-40{padding-right: 40px;}
+.my-pr-100{padding-right: 100px;}
+.my-pr-150{padding-right: 150px;}
+.my-pr-200{padding-right: 200px;}
+
+.my-plr-50{ margin: 0, 250px, 0, 250px;}
+
+.my-h-100{height:100px;}
+.my-h-200{height: 200px;}
+.my-h-300{height: 300px;}
+.my-h-400{height: 400px;}
+.my-h-500{height: 500px;}
+
+.my-w-100{width: 100px;}
+.my-w-200{width: 200px;}
+.my-w-300{width: 300px;}
+.my-w-400{width: 400px;}
+.my-w-500{width: 500px;}
+
+.my-mt-100{margin-top: 100px;}
+.my-mt-300{margin-top: 300px;}
+.my-mt-400{margin-top: 400px;}
+.my-mt-500{margin-top: 500px;}
+.my-mt-600{margin-top: 600px;}
+
+
+.sd-1{
+    height: 300px;
+    position: relative;
+}
+.sd-1::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 155px;
+    left: 0;
+    background-color: #212529;
+    transform: skewY(7deg);
+    z-index: -1;
+    border-bottom-left-radius: 80px;
+    /* background: transparent; */
+}
+
+
+.sd-2{
+    height: 150px;
+    position: relative;
+}
+.sd-2::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: -100px;
+    left: 0;
+    background-color: #212529;
+    transform: skewY(7deg);
+    z-index: -1;
+    border-top-right-radius: 80px;
+}
+
+
+.sd-img{
+    /* height: 300px; */
+    position: relative;
+    /* width: 100%;
+    height: 400px; */
+    transform-origin: left bottom;
+    transform: skewY(7deg);
+    border-bottom-left-radius: 80px;
+    background: inherit;
+}   
+.sd-imgk::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 400px;
+    /* top: 0px; */
+    /* left: 0; */
+    /* background-color: #f01313; */
+    /* background-image: url("https://www.imgworlds.com/wp-content/uploads/2015/12/18-CONTACTUS-HEADER.jpg"); */
+    /* background-size: cover;
+    background-repeat: no-repeat; */
+    transform-origin: left bottom;
+    transform: skewY(7deg);
+    /* z-index: 1; */
+    border-bottom-left-radius: 80px;
+}

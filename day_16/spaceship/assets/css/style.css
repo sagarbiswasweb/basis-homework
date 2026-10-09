@@ -1,0 +1,466 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.sky{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    position: relative;
+}
+
+/* moon position */
+.moon{
+    /* height: 200px;
+    width: 200px; */
+    /* background-color: red; */
+    position: absolute;
+    top: 20px;
+    left: 265px;
+}
+/* for moon drawing */
+.white-portion{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(247, 232, 102);
+    position: absolute;
+    top: 20px;
+    left: 27px;
+    border-radius: 50%;
+}
+.black-portion{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(8, 8, 8);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 50%;
+}
+
+/* for star  */
+.star_1{
+    height: 5px;
+    width: 5px;
+    background-color: white;
+    position: absolute;
+    top: 300px;
+    left: 300px;
+}
+.star_2{
+    height: 8px;
+    width: 8px;
+    background-color: white;
+    position: absolute;
+    top: 250px;
+    left: 600px;
+}
+.star_3{
+    height: 7px;
+    width: 7px;
+    background-color: white;
+    position: absolute;
+    top: 100px;
+    left: 500px;
+}
+.star_4{
+    height: 10px;
+    width: 10px;
+    background-color: white;
+    position: absolute;
+    top: 50px;
+    left: 1000px;
+}
+.star_5{
+    height: 2px;
+    width: 2px;
+    background-color: white;
+    position: absolute;
+    top: 300px;
+    left: 800px;
+}
+.star_6{
+    height: 3px;
+    width: 3px;
+    background-color: white;
+    position: absolute;
+    top: 200px;
+    left: 80px;
+}
+.star_7{
+    height: 4px;
+    width: 4px;
+    background-color: white;
+    position: absolute;
+    top: 400px;
+    left: 450px;
+}
+.star_8{
+    height: 5px;
+    width: 5px;
+    background-color: white;
+    position: absolute;
+    top: 200px;
+    left: 850px;
+}
+.star_9{
+    height: 8px;
+    width: 8px;
+    background-color: white;
+    position: absolute;
+    top: 300px;
+    left: 1300px;
+}
+.star_10{
+    height: 5px;
+    width: 5px;
+    background-color: white;
+    position: absolute;
+    top: 280px;
+    left: 1000px;
+}
+.star_11{
+    height: 5px;
+    width: 5px;
+    background-color: white;
+    position: absolute;
+    top: 50px;
+    left: 200px;
+}
+.star_12{
+    height: 6px;
+    width: 6px;
+    background-color: white;
+    position: absolute;
+    top: 100px;
+    left: 1200px;
+}
+.star_13{
+    height: 5px;
+    width: 5px;
+    background-color: white;
+    position: absolute;
+    top: 400px;
+    left: 700px;
+}
+
+
+
+/* in field there are sheeps */
+
+/* for field  */
+.field{
+    width: 100%;
+    height: 300px;
+    background-color: green;
+    position: relative;
+}
+
+
+
+
+
+/* for sheeps positioning */
+.sheep-1{
+    position: relative;
+    position: absolute;
+    /* height: 200px;
+    width: 200px; */
+    top: 20px;
+    left: 400px;
+    animation-name: sheep-1;
+    animation-duration: 30s;
+    /* background-color: rebeccapurple; */
+}
+.sheep-2{
+    position: relative;
+    position: absolute;
+    /* height: 200px;
+    width: 200px; */
+    top: 10px;
+    left: 800px;
+    animation-name: sheep-2;
+    animation-duration: 40s;
+    /* background-color: rebeccapurple; */
+}
+.sheep-3{
+    position: relative;
+    position: absolute;
+    /* height: 200px;
+    width: 200px; */
+    top: 100px;
+    left: 600px;
+    animation-name: sheep-3;
+    animation-duration: 30s;
+    /* background-color: rebeccapurple; */
+}
+
+
+
+
+
+/* ==================sheep drawing start================== */
+.sheep-head{
+    height: 30px;
+    width: 20px;
+    background-color: wheat;
+    transform: rotate(25deg);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.left-eye{
+    height: 5px;
+    width:5px;
+    background-color: black;
+    position: absolute;
+    top: 9px;
+    left: 0px;
+}
+.right-eye{
+    height: 5px;
+    width:5px;
+    background-color: black;
+    position: absolute;
+    top: 9px;
+    left: 10px;
+}
+.mouth{
+   height: 2px; 
+   width: 10px;
+   background-color: black;
+   position: absolute;
+   top: 22px;
+   left: 2px;
+}
+.sheep-body{
+    height: 40px;
+    width: 70px;
+    background-color: wheat;
+    /* transform: rotate(15deg); */
+    position: absolute;
+    top: 0px;
+    left: 23px;
+}
+.sheep-left-leg-1{
+    height: 30px;
+    width: 5px;
+    background-color: wheat;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+}
+.sheep-left-leg-2{
+    height: 30px;
+    width: 5px;
+    background-color: wheat;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+.sheep-right-leg-1{
+    height: 30px;
+    width: 5px;
+    background-color: wheat;
+    position: absolute;
+    top: 40px;
+    left: 70px;
+}
+.sheep-right-leg-2{
+    height: 30px;
+    width: 5px;
+    background-color: wheat;
+    position: absolute;
+    top: 40px;
+    left: 80px;
+}
+.shadow{
+    height: 20px;
+    width: 57px;
+    background-color: rgb(46, 128, 49);
+    /* border-radius: 80%; */
+    transform: skew(30deg);
+    position: absolute;
+    top: 70px;
+    left: 35px;
+}
+/* =================sheep drwing end============= */
+
+
+
+
+/* ===========spaceship drawing start=============== */
+.spaceship{
+    /* height: 200px;
+    width: 200px;
+    background-color:rgb(46, 128, 49); */
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    /* transition: all 2s; */
+    animation-name: spaceship;
+    animation-duration: 40s;
+}
+.spaceship-body{
+    height: 50px;
+    width: 100px;
+    background-color: white;
+    border-radius: 100px 100px 50px 50px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.spaceship-window-1{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(238, 15, 15);
+    position: absolute;
+    top: 19px;
+    left: 14px;
+}
+.spaceship-window-2{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(238, 15, 15);
+    position: absolute;
+    top: 19px;
+    left: 42px;
+}
+.spaceship-window-3{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(238, 15, 15);
+    position: absolute;
+    top: 19px;
+    left: 71px;
+}
+.spaceship-left-leg{
+    height: 20px;
+    width: 10px;
+    background-color: aqua;
+    transform: skew(-30deg);
+    position: absolute;
+    top: 50px;
+    left: 8px;
+}
+.spaceship-right-leg{
+    height: 20px;
+    width: 10px;
+    background-color: aqua;
+    transform: skew(30deg);
+    position: absolute;
+    top: 50px;
+    left: 80px;
+}
+.light{
+    /* height: 150px; */
+    /* width: 50px; */
+    /* background-color: #fff; */
+    /* position: absolute;
+    top: 50px;
+    left: 24px;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 200px solid white;
+    border-radius: 50%; */
+}
+/* ================spaceship drawing end============= */
+
+
+/* tree position */
+.tree-1{
+    /* height: 200px;
+    width: 200px; */
+    /* background-color: red; */
+    position: absolute;
+    top: -90px;
+    left: 99px;
+}
+.tree-2{
+    /* height: 200px;
+    width: 200px; */
+    /* background-color: red; */
+    position: absolute;
+    top: -90px;
+    left: 1020px;
+}
+
+/* =========tree drawing start============= */
+.tree-body{
+    height: 100px;
+    width: 50px;
+    background-color: brown;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.tree-leaf-1{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(11, 66, 11);
+    border-radius: 50%;
+    position: absolute;
+    top: -74px;
+    left: -58px;
+}
+.tree-leaf-2{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(11, 66, 11);
+    border-radius: 50%;
+    position: absolute;
+    top: -74px;
+    left: 11px;
+}
+.tree-leaf-3{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(11, 66, 11);
+    border-radius: 50%;
+    position: absolute;
+    top: -129px;
+    left: -27px;
+}
+/* ==============tree drawing end=============== */
+
+
+
+
+
+/* spaceship movement  */
+@keyframes spaceship {
+    0%   {left:0px; top:0px;}
+    25%  {left:800px; top:300px;}
+    50%  {left:800px; top:300px;}
+    /* 75%  {left:800px; top:300px;} */
+    100% {left:1800px; top:0px;}
+  }
+
+  /* sheep kidnap or opacity */
+@keyframes sheep-2{
+    0%   {opacity: 1;}
+    25%  {opacity: 1;}
+    50%  {opacity: 0;}
+    75%  {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+/* sheep-1 movement */
+@keyframes sheep-1 {
+    0%   {left:400px; top:20px;}
+    25%  {left:400px; top:20px;}
+    /* 50%  {left:100px; top:20px;} */
+    /* 75%  {left:800px; top:300px;} */
+    100% {left:-300px; top:20px;}
+  }
+
+  /* sheep-3 movement */
+@keyframes sheep-3 {
+    0%   {left:600px; top:100px;}
+    25%  {left:600px; top:100px;}
+    50%  {left:600px; top:100px;}
+    /* 75%  {left:800px; top:300px;} */
+    100% {left:-400px; top:100px;}
+  }

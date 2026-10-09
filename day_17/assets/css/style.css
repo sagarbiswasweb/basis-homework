@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* container classes */
+.container{
+    width: 90%;
+    margin: auto;
+    /* border: 2px solid rgb(207, 21, 21); */
+}
+
+/* all classes starts with "col-" */
+[class*="col-"]{
+    /* border: 2px solid rgb(25, 158, 219); */
+    float: left;
+    /* text-align: center; */
+}
+
+/* all classes starts with "row" */
+[class*="row"]{
+    border: 2px solid rgb(14, 13, 13);
+    width: 100%;
+    overflow: hidden;
+}
+
+/* display divided into 12 division */
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+
+
+
+/* ========for header=========== */
+.menu{
+    display: flex;
+    background-color: beige;
+    justify-content: space-between;
+}
+header{
+    position: sticky;
+    z-index: 1;
+    top: 0px;
+}
+.menu-bar{
+    display: flex;
+    align-items: center;
+}
+.menu-bar a{
+    text-decoration: none;
+    font-size: 26px;
+    padding: 15px;
+    border-radius: 20px 0 20px 0 ;
+}
+.menu-bar a:hover{
+    background-color: rgb(228, 228, 228);
+    color: rgb(85, 85, 85);
+}
+.sign-in{
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+.sign-in a{
+    text-decoration: none;
+    font-size: 26px;
+}
+
+
+
+
+
+
+/* ==============for main ================= */
+.slider{
+    background-image: url(https://i0.wp.com/www.sweetlightphotos.com/wp-content/uploads/2022/08/2022-08-08_Maara-21333-Edit-1.jpg?fit=800%2C533&ssl=1);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+}
+main section:nth-child(2) .container .row{
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border: 1px solid gray;
+    height: 400px;
+    width: 250px;
+    overflow-y: scroll;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+.card h2, p, ul, span{
+    padding: 10px;
+    text-align: justify;
+}
+.my-span{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    bottom: 0px;
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+.card ul li{
+    list-style: none;
+} 
+.my-span span a{
+    text-decoration: none;
+    color: white;
+}
+.card img{
+    position: sticky;
+    top: 0px;
+}
+
+.card:hover{
+    background-color: aliceblue;
+}

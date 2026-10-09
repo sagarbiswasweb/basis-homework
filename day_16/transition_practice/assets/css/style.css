@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.outer-box{
+    height: 250px;
+    width: 250px;
+    background-color: aqua;
+    margin: 200px auto;
+    border: 2px solid gray;
+}
+
+.inner-box{
+    height: 150px;
+    width: 150px;
+    background-color: blueviolet;
+    margin: 50px;
+    transition-duration: 2s;
+}
+
+.inner-box:hover{
+    background-color: brown;
+}
